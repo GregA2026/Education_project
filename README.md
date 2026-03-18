@@ -9,21 +9,26 @@ Final project of DAFS-FT-17 (Jedha Bootcamp)
 # Project Introduction (to work)
 
 
-
 # Data 
+
+## Lycée data :  
 
 CSV file :  
 
 fr-en-baccalaureat-par-academie  
-fr-en-college-effectifs-niveau-sexe-lv  
-fr-en-dnb-par-etablissement  
 fr-en-reussite-au-baccalaureat-origine-sociale  
-fr-en-college-effectifs-niveau-sexe-lv  
 
+## Collège data :  
+
+CSV file : 
+
+fr-en-college-effectifs-niveau-sexe-lv  
+fr-en-dnb-par-etablissement 
+fr-en-college-effectifs-niveau-sexe-lv  
 
 Excel file : depp-rers-2017-donnees-fiche-02-06-810812  
 
-Datasets sources :  
+## Datasets sources :  
 
 https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
 https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
