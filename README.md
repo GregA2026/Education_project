@@ -12,17 +12,23 @@ Final project of DAFS-FT-17 (Jedha Bootcamp)
 
 # Data 
 
-CSV file :  fr-en-baccalaureat-par-academie
-            fr-en-college-effectifs-niveau-sexe-lv
-            fr-en-dnb-par-etablissement
-            fr-en-reussite-au-baccalaureat-origine-sociale
-Excel file : depp-rers-2017-donnees-fiche-02-06-810812
+CSV file :  
 
-Datasets sources :  https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
-                    https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
-                    https://www.data.gouv.fr/datasets/reussite-au-baccalaureat-selon-lorigine-sociale  
-                    https://www.data.gouv.fr/datasets/diplome-national-du-brevet-par-etablissement-1  
-                    https://www.data.gouv.fr/datasetseffectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee  
+fr-en-baccalaureat-par-academie  
+fr-en-college-effectifs-niveau-sexe-lv  
+fr-en-dnb-par-etablissement  
+fr-en-reussite-au-baccalaureat-origine-sociale  
+
+
+Excel file : depp-rers-2017-donnees-fiche-02-06-810812  
+
+Datasets sources :  
+
+https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
+https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
+https://www.data.gouv.fr/datasets/reussite-au-baccalaureat-selon-lorigine-sociale  
+https://www.data.gouv.fr/datasets/diplome-national-du-brevet-par-etablissement-1  
+https://www.data.gouv.fr/datasetseffectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee  
 
 ## About Dataset (to work)
 
