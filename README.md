@@ -28,7 +28,7 @@ https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie
 https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
 https://www.data.gouv.fr/datasets/reussite-au-baccalaureat-selon-lorigine-sociale  
 https://www.data.gouv.fr/datasets/diplome-national-du-brevet-par-etablissement-1  
-https://www.data.gouv.fr/datasetseffectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee  
+https://www.data.gouv.fr/datasets/effectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee
 
 ## About Dataset (to work)
 
