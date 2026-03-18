@@ -18,6 +18,7 @@ fr-en-baccalaureat-par-academie
 fr-en-college-effectifs-niveau-sexe-lv  
 fr-en-dnb-par-etablissement  
 fr-en-reussite-au-baccalaureat-origine-sociale  
+fr-en-college-effectifs-niveau-sexe-lv  
 
 
 Excel file : depp-rers-2017-donnees-fiche-02-06-810812  
@@ -28,7 +29,8 @@ https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie
 https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
 https://www.data.gouv.fr/datasets/reussite-au-baccalaureat-selon-lorigine-sociale  
 https://www.data.gouv.fr/datasets/diplome-national-du-brevet-par-etablissement-1  
-https://www.data.gouv.fr/datasets/effectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee
+https://www.data.gouv.fr/datasets/effectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee  
+https://www.data.gouv.fr/datasets/resultats-consolides-aux-evaluations-nationales-de-debut-de-sixieme-par-region
 
 ## About Dataset (to work)
 
