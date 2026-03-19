@@ -24,7 +24,7 @@ CSV file :
 
 fr-en-college-effectifs-niveau-sexe-lv  
 fr-en-dnb-par-etablissement 
-fr-en-college-effectifs-niveau-sexe-lv  
+fr-en-evaluations_nationales_6eme_region.csv  
 
 Excel file : depp-rers-2017-donnees-fiche-02-06-810812  
 
