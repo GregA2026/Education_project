@@ -2,35 +2,35 @@
 Final project of DAFS-FT-17 (Jedha Bootcamp)
 
 
-# Our final certification-project !
+# Notre projet final de certification!
 
 ![final project](https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?_gl=1*9ifwbs*_ga*MjAzMjYyNjU3Ni4xNzcxNDIzNDY0*_ga_8JE65Q40S6*czE3NzE0MjM0NjQkbzEkZzEkdDE3NzE0MjM2NTIkajU5JGwwJGgw)
 
-# Project Introduction (to work)
+# Introduction du projet (to work)
 
 
 # Data 
 
 CSV file : fr-en-baccalaureat-par-academie    
 
-## Datasets sources :  
+## Source du dataset :  
 
 https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
 
-## About Dataset (to work)
+## A propos du Dataset (à travailler)
 
 
-# Environment (to work)
+# Environnement (à travailler)
 
-you must install environment varaible :
-Write in your terminal 
+Vous devez installer les différentes librairies d'envrionnement.
+Ecrivez dans votre terminal :
 
 ```powershell  
 pip install -r requirements.txt  
 ```  
-requirements.txt is in our repository
+requirements.txt est dans dans notre repository.
 
-# Team members 
+# Membre de l'équipe
 
 - Hannah Smith 
 - Eric Tabiou 
