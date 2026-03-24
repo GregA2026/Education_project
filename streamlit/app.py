@@ -98,9 +98,9 @@ def performance(t):
 def color_perf(val):
     """Couleurs rouge/orange/vert pour le tableau — convention universelle."""
     colors = {
-        "Mauvaise": "background-color:#FCEBEB; color:#A32D2D",
-        "Modérée":  "background-color:#FAEEDA; color:#854F0B",
-        "Bonne":    "background-color:#EAF3DE; color:#27500A",
+        "Mauvaise": "background-color:#FE0000; color:#000000",
+        "Modérée":  "background-color:#FF8C00; color:#000000",
+        "Bonne":    "background-color:#50C878; color:#000000",
     }
     return colors.get(val, "")
 
@@ -129,8 +129,12 @@ with col_logo:
 # Prédiciton automatique pour tous les groupes d'une académie,
 # triés par taux croissant pour identifier les groupes à risque
 
-st.title("Anticiper la Réussite au Baccalauréat", text_alignment="center", width="stretch")
-st.subheader("Outil de simulation et d'analyse des performances par académie, pour préparer la prochaine session de bac.", width="stretch", text_alignment="center")
+st.markdown(
+    "<h1 style='text-align: center;'>Anticiper la Réussite au Baccalauréat</h1>",
+    unsafe_allow_html=True)
+st.markdown(
+    "<h2 style='text-align: center;'>Outil de simulation et d'analyse des performances par académie, pour préparer la prochaine session de bac.</h2>",
+    unsafe_allow_html=True)
 
 c1, c2, c3 = st.columns(3)
 academie_scan = c1.selectbox("Académie", academies, key="acad_scan")
@@ -177,9 +181,9 @@ st.markdown(f"""
 ---
 **Guide de lecture**
  
-🔴 **Mauvaise** — taux prédit < {SEUIL_MAUVAIS} % : groupe nécessitant une attention prioritaire  
-🟠 **Modérée** — taux prédit entre {SEUIL_MAUVAIS} % et {SEUIL_BON} % : groupe à surveiller  
-🟢 **Bonne** — taux prédit > {SEUIL_BON} % : groupe dans les normes attendues
+🟢 **Bonne** — taux prédit > {SEUIL_BON} % : groupe dans les normes attendues  
+🟠 **Modérée** — taux prédit entre {SEUIL_MAUVAIS} % et {SEUIL_BON} % : groupe à surveiller   
+🔴 **Mauvaise** — taux prédit < {SEUIL_MAUVAIS} % : groupe nécessitant une attention prioritaire 
  
 ---
 """)
