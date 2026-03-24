@@ -11,31 +11,11 @@ Final project of DAFS-FT-17 (Jedha Bootcamp)
 
 # Data 
 
-## Lycée data :  
-
-CSV file :  
-
-fr-en-baccalaureat-par-academie  
-fr-en-reussite-au-baccalaureat-origine-sociale  
-
-## Collège data :  
-
-CSV file : 
-
-fr-en-college-effectifs-niveau-sexe-lv  
-fr-en-dnb-par-etablissement   
-fr-en-evaluations_nationales_6eme_region.csv  
-
-Excel file : depp-rers-2017-donnees-fiche-02-06-810812  
+CSV file : fr-en-baccalaureat-par-academie    
 
 ## Datasets sources :  
 
 https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
-https://www.data.gouv.fr/datasets/la-taille-des-colleges-et-lycees  
-https://www.data.gouv.fr/datasets/reussite-au-baccalaureat-selon-lorigine-sociale  
-https://www.data.gouv.fr/datasets/diplome-national-du-brevet-par-etablissement-1  
-https://www.data.gouv.fr/datasets/effectifs-deleves-par-niveau-sexe-langues-vivantes-1-et-2-les-plus-frequentes-par-college-date-dobservation-au-debut-du-mois-doctobre-chaque-annee  
-https://www.data.gouv.fr/datasets/resultats-consolides-aux-evaluations-nationales-de-debut-de-sixieme-par-region
 
 ## About Dataset (to work)
 
@@ -50,14 +30,13 @@ pip install -r requirements.txt
 ```  
 requirements.txt is in our repository
 
-
 # Team members 
 
-- Hannah Smith (Python)
-- Eric Tabiou (Python)
-- Patrick Grouillet (Power Bi)
-- Antoine Smith (Power Bi)
-- Grégory Augis (Python)
+- Hannah Smith 
+- Eric Tabiou 
+- Patrick Grouillet 
+- Antoine Smith 
+- Grégory Augis 
 
 # Demoday
 
