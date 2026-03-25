@@ -33,7 +33,7 @@ Ecrivez dans votre terminal :
 pip install -r requirements.txt  
 ```  
 
-Pour la section "mention" présent dans la racine de notre repository.  
+Pour la section "mention" présent dans le dossier "mention" de notre repository.  
 Pour la section "streamlit" présent dans le dossier "streamlit" de notre repository.  
 
 # Architecture
@@ -57,6 +57,16 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 ├── .gitignore
 ├── README.md
 ```
+# Contenu du repositorie  
+
+📁 data : dataset original et dataset nettoyé pour le Machine Learning des mentions  
+📁 mention : EDA du datset dédié aux mentions accompagné de 3 approche de prédiction grâce à du Machine Learning  
+📁 streamlit : Machine Learning pour prédire le taux de réussite et application streamlit associé (hégergé sur huggingface)  
+📁 powerBI : présentation powerBI du dataset
+
+## lien Huggingface
+
+https://huggingface.co/spaces/smithhannah/projet_taux_reussite_bac
 
 # Membre de l'équipe
 
