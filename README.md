@@ -49,7 +49,7 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 │   └── ML3_mention_majoritaire.ipynb
 │   └── requirements.txt
 ├── powerBI
-│   └── education_académie.pbix
+│   └── education_academie.pbix
 ├── streamlit
 │   └── data/
 │   │   └── bac_prepared.csv
