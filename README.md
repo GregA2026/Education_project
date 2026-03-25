@@ -47,22 +47,33 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 │   └── ML1_mention.ipynb
 │   └── ML2_proportion.ipynb
 │   └── ML3_mention_majoritaire.ipynb
+│   └── requirements.txt
+├── powerBI
 ├── streamlit
-│   └── app.py
-│   └── model_bac.pkl
 │   └── data/
 │   │   └── bac_prepared.csv
-│   └── taux_reussite_regress.ipynb
+│   └── .gitattributes
 │   └── README.md
+│   └── app.py
+│   └── model_bac.pkl
+│   └── requirements.txt
+│   └── taux_reussite_regress.ipynb
 ├── .gitignore
 ├── README.md
 ```
 # Contenu du repositorie  
 
-📁 data : dataset original et dataset nettoyé pour le Machine Learning des mentions  
-📁 mention : EDA du datset dédié aux mentions accompagné de 3 approche de prédiction grâce à du Machine Learning  
-📁 streamlit : Machine Learning pour prédire le taux de réussite et application streamlit associé (hégergé sur huggingface)  
-📁 powerBI : présentation powerBI du dataset
+📁 data :  
+  dataset original et dataset nettoyé pour le Machine Learning des mentions  
+  
+📁 mention :  
+  EDA du datset dédié aux mentions accompagné de 3 approches de prédictions grâce à du Machine Learning  
+  
+📁 streamlit :  
+  Machine Learning pour prédire le taux de réussite et application streamlit associé (hégergé sur huggingface)  
+  
+📁 powerBI :  
+  présentation powerBI du dataset  
 
 ## lien Huggingface
 
