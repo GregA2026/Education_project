@@ -24,7 +24,7 @@ CSV file : fr-en-baccalaureat-par-academie
 
 https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie  
 
-# Environnement (à travailler)
+# Environnement
 
 Vous devez installer les différentes librairies d'envrionnement pour executer les notebooks présent dans la section "mention" et "streamlit"
 Ecrivez dans votre terminal :
