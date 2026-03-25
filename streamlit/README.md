@@ -1,6 +1,5 @@
 ---
-title: "🎓 Anticiper la Réussite au Bac"
-emoji: "🎓"
+title: "Anticiper la Réussite au Bac"
 colorFrom: "blue"
 colorTo: "green"
 sdk: "streamlit"
@@ -10,20 +9,20 @@ app_file: "app.py"
 pinned: false
 ---
 
-# 🎓 Anticiper la Réussite au Baccalauréat
+# Anticiper la Réussite au Baccalauréat
 
 > Ce projet permet d’anticiper les performances au baccalauréat afin d’identifier en amont les groupes à risque et d’optimiser les actions pédagogiques à l’échelle des académies.
 > 
 
 ---
 
-## 📌 Contexte & Problématique
+## Contexte & Problématique
 
 Le taux de réussite au baccalauréat varie selon de nombreux facteurs : série, académie, statut du candidat, etc.
 
 Aujourd’hui, les décisions pédagogiques sont souvent prises **après les faits**, une fois les résultats connus.
 
-👉 Problème :
+-> Problème :
 
 - difficulté à **anticiper les performances**
 - manque d’outils pour **cibler les groupes à risque**
@@ -31,7 +30,7 @@ Aujourd’hui, les décisions pédagogiques sont souvent prises **après les fai
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Développer un outil permettant de :
 
@@ -46,9 +45,9 @@ Cette partie du projet repose sur :
 
 ---
 
-## 🧠 Modèle de Machine Learning
+## Modèle de Machine Learning
 
-### 🔍 Type de modèle
+### Type de modèle
 
 Modèle de **régression Ridge** intégré dans un pipeline complet :
 
@@ -56,11 +55,11 @@ Modèle de **régression Ridge** intégré dans un pipeline complet :
 - standardisation
 - modèle de régression régularisée
 
-👉 Sauvegardé avec `joblib` (`model_bac.pkl`)
+-> Sauvegardé avec `joblib` (`model_bac.pkl`)
 
 ---
 
-### 📊 Variables utilisées
+### Variables utilisées
 
 - Série
 - Sexe
@@ -68,11 +67,11 @@ Modèle de **régression Ridge** intégré dans un pipeline complet :
 - Académie
 - `taux_hist` (taux de réussite historique)
 
-💡 Cette variable est clé : elle introduit une **mémoire des performances passées**.
+-> Cette variable est clé : elle introduit une **mémoire des performances passées**.
 
 ---
 
-### ⚙️ Optimisation
+### Optimisation
 
 - sélection des variables pertinentes
 - gestion de la multicolinéarité avec Ridge
@@ -81,85 +80,81 @@ Modèle de **régression Ridge** intégré dans un pipeline complet :
 
 ---
 
-## 📈 Performance du modèle
+## Performance du modèle
 
-### 🔢 Métriques
+### Métriques
 
 - **R² (coefficient de détermination)**
 - **MAE (Mean Absolute Error)**
 
 ---
 
-### 📊 Résultats
+### Résultats
 
 - **R² :** `0.82`
 - **MAE :**  `3.32 points de pourcentage`
 
 ---
 
-### 🧠 Interprétation
+### Interprétation
 
 - Le modèle explique une part importante de la variance du taux de réussite.
 - L’erreur moyenne est de **±3.32 points**.
 
-👉 Exemple :
+-> Exemple :
 
 > Une prédiction à 82% correspond généralement à un taux réel entre ~78.7% et ~85.3%.
 > 
 
 ---
 
-## 💼 Interprétation Business
+## Interprétation Business
 
-### 🎯 Utilité concrète
+### Utilité concrète
 
-Le modèle permet de passer d’une logique :
-
-- ❌ réactive (analyse après résultats)
-- ✅ proactive (anticipation avant examens)
+Le modèle permet de passer d’une logique **réactive** (analyse après résultats), à une logique **proactive** (anticipation avant examens)
 
 ---
 
-### 🔎 1. Identification des groupes à risque
+### 1. Identification des groupes à risque
 
 - taux prédit < 75%
 - détection des groupes nécessitant une attention prioritaire
 
-👉 Impact :
+-> Impact :
 
 - mise en place de soutien ciblé
 - réduction des échecs
 
 ---
 
-### ⚖️ 2. Priorisation des actions
+### 2. Priorisation des actions
 
 - allocation des ressources sur les groupes critiques
 - optimisation du temps des enseignants
 
 ---
 
-### 📊 3. Pilotage académique
+### 3. Pilotage académique
 
 - vision globale des performances :
     - 🔴 mauvaises
     - 🟠 modérées
     - 🟢 bonnes
 
-👉 aide à la décision stratégique
+-> aide à la décision stratégique
 
 ---
 
-### 🏫 Cas d’usage
+### Cas d’usage
 
-- rectorats
 - établissements scolaires
 - enseignants
 - institutions publiques
 
 ---
 
-### ⚠️ Limites
+### Limites
 
 - modèle dépendant des données historiques
 - ne capture pas tous les facteurs externes (sociaux, pédagogiques)
@@ -167,7 +162,7 @@ Le modèle permet de passer d’une logique :
 
 ---
 
-## 🖥️ Application Streamlit
+## Application Streamlit
 
 L’application :
 
@@ -176,20 +171,20 @@ L’application :
 3. applique directement le pipeline
 4. génère les prédictions
 
-👉 Aucun preprocessing nécessaire côté app
+-> Aucun preprocessing nécessaire côté app
 
 ---
 
-### 🎯 Fonctionnalités
+### Fonctionnalités
 
-### 🔎 Scan académique
+### Scan académique
 
 - analyse automatique par académie
 - classement des groupes par performance
 
 ---
 
-### 📊 KPIs
+### KPIs
 
 - nombre de groupes :
     - 🔴 mauvaise performance
@@ -198,13 +193,13 @@ L’application :
 
 ---
 
-### 📥 Export
+### Export
 
 - téléchargement CSV des résultats
 
 ---
 
-### 💡 Recommandations
+### Recommandations
 
 - soutien intensif
 - examens blancs
@@ -213,68 +208,69 @@ L’application :
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ```
 ├── app.py
 ├── model_bac.pkl
 ├── data/
 │   └── bac_prepared.csv
+│   └── fr-en-baccalaureat-par-academie.csv
 ├── taux_reussite_regress.ipynb
 └── README.md
 ```
 
 ---
 
-## ⚠️ Problèmes rencontrés
+## Problèmes rencontrés
 
-### 📊 Données
+### Données
 
 - données hétérogènes
 - besoin de nettoyage et harmonisation
 
 ---
 
-### 🧠 Feature engineering
+### Feature engineering
 
 - difficulté à intégrer le temps (la feature “Session” a une corrélation d’environ -0.08 avec le taux de réussite)
-👉 solution : création de feature `taux_hist`
+-> solution : création de feature `taux_hist`
 
 ---
 
-### ⚙️ Modélisation
+### Modélisation
 
-- risque de surapprentissage
-👉 Ridge
+- testé plusieurs modèles (Ridge, Random Forest, XGBoost), et fait une cross-validation (K-Folds)
+-> Meilleur modèle: Ridge
 
 ---
 
-### 🚀 Déploiement
+### Déploiement
 
 - cohérence preprocessing / app
-👉 pipeline complet sauvegardé
+-> pipeline complet sauvegardé
 
 ---
 
-## ✅ Choix techniques
+## Choix techniques
 
 | Élément | Choix | Pourquoi |
 | --- | --- | --- |
-| Modèle | Ridge Regression | robuste, interprétable |
+| Modèle | Ridge Regression | robuste, interprétable, meilleur R² |
 | App | Streamlit | facile à utiliser |
 | Sauvegarde | joblib | standard ML |
 | Visualisation | Plotly | interactif |
 
 ---
 
-## 📈 Améliorations possibles
+## Améliorations possibles
 
 - ajout de variables socio-économiques
 - utiliser un dataset avec des données par individuel, pas seulement pas groupe aggrégé
 
 ---
 
-## 📎 Source des données
+## Source des données
 
 Données publiques :
 

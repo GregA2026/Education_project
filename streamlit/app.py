@@ -7,8 +7,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Anticiper la Réussite au Baccalauréat",
-    layout="wide",
-    page_icon="🎓"
+    layout="wide"
 )
 
 ## CHARTE GRAPHIQUE
@@ -220,7 +219,7 @@ if n_mauvais > 0 or n_modere > 0:
     st.caption("*Actions suggérées selon le niveau de performance prédit.*")
 
 if n_mauvais > 0:
-    with st.expander(f"Groupes à performance mauvaise ({n_mauvais} groupe(s))"):
+    with st.expander(f"🔴 **Groupes à performance mauvaise** ({n_mauvais} groupe(s))"):
         st.markdown( f"""
         **Soutien intensif avant les épreuves**:
         Mettre en place des **heures de soutien supplémentaires** ciblées sur les matières clés de la série concernée.
@@ -233,7 +232,7 @@ if n_mauvais > 0:
             """)
 
 if n_modere > 0:
-    with st.expander(f"Groupes à performance modérée ({n_modere} groupe(s))"):
+    with st.expander(f"🟠 **Groupes à performance modérée** ({n_modere} groupe(s))"):
         st.markdown(f"""
         **Ateliers de méthodologie**:
         Proposer des **ateliers de travail** sur la gestion du temps, la structuration des réponses et la prise de notes efficace.
