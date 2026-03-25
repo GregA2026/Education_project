@@ -36,6 +36,28 @@ pip install -r requirements.txt
 Pour la section "mention" présent dans la racine de notre repository.
 Pour la section "streamlit" présent dans le dossier "streamlit" de notre repository.
 
+# Architecture
+
+```
+├── data
+│   └── clean_dataset.csv
+│   └── fr-en-baccalaureat-par-academie.csv
+├── mention
+│   └── EDA.ipynb
+│   └── ML1_mention.ipynb
+│   └── ML2_proportion.ipynb
+│   └── ML3_mention_majoritaire.ipynb
+├── streamlit
+│   └── app.py
+│   └── model_bac.pkl
+│   └── data/
+│   │   └── bac_prepared.csv
+│   └── taux_reussite_regress.ipynb
+│   └── README.md
+├── .gitignore
+├── README.md
+```
+
 # Membre de l'équipe
 
 - Hannah Smith 
