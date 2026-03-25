@@ -26,15 +26,15 @@ https://www.data.gouv.fr/datasets/le-baccalaureat-par-academie
 
 # Environnement
 
-Vous devez installer les différentes librairies d'envrionnement pour executer les notebooks présent dans la section "mention" et "streamlit"
-Ecrivez dans votre terminal :
+Vous devez installer les différentes librairies d'envrionnement pour executer les notebooks présent dans la section "mention" et "streamlit"  
+Ecrivez dans votre terminal :  
 
 ```powershell  
 pip install -r requirements.txt  
 ```  
 
-Pour la section "mention" présent dans la racine de notre repository.
-Pour la section "streamlit" présent dans le dossier "streamlit" de notre repository.
+Pour la section "mention" présent dans la racine de notre repository.  
+Pour la section "streamlit" présent dans le dossier "streamlit" de notre repository.  
 
 # Architecture
 
