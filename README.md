@@ -76,7 +76,7 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 📁 powerBI :  
   présentation powerBI du dataset  
 
-## lien Huggingface
+## Lien Hugging Face
 
 https://huggingface.co/spaces/smithhannah/projet_taux_reussite_bac
 
