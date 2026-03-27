@@ -39,6 +39,18 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 # Architecture
 
 ```
+├── Tests inferentiels
+│   └── 03_Matrice_correlation mentions.ipynb
+│   └── 03_Test02 Anova Taux de reussite - academie.ipynb
+│   └── 03_Test02 Anova Taux de reussite - genre.ipynb
+│   └── 03_Test03 phi2 acad et distibution mention.ipynb
+│   └── 03_Test04 pearson TB et reussite.ipynb
+│   └── DIM.xlsx
+│   └── ETL.pbix
+│   └── ETL_Pearson.xlsx
+│   └── ETL_mentions.xlsx
+│   └── ETL_reussites.xlsx
+│   └── fr-en-baccalaureat-par-academie.csv
 ├── data
 │   └── clean_dataset.csv
 │   └── fr-en-baccalaureat-par-academie.csv
@@ -63,6 +75,9 @@ Pour la section "streamlit" présent dans le dossier "streamlit" de notre reposi
 ├── README.md
 ```
 # Contenu du repositorie  
+
+📁 Tests inférentiels :  
+  dataset original, tests inférentiels, exploration avec power BI 
 
 📁 data :  
   dataset original et dataset nettoyé pour le Machine Learning des mentions  
