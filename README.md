@@ -13,7 +13,7 @@ Les données numériques aggrégées sont le nombre d'inscrits, de présents, d'
 
 # Problèmatique liée au projet  
 
-Quels sont les facteurs régionaux et démographiques qui influencent les performances des élèves en France au baccalauréat ?  
+Entre l’académie, le type de bac et le genre, quel facteur a le plus d’influence sur la réussite et les mentions au baccalauréat ?  
 Peut-on prédire le taux de réussite et les mentions efficacement à partir de ces données ?  
 
 # Data  
